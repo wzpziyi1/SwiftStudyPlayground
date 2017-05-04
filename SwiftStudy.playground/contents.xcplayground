@@ -4,5 +4,6 @@
         <page name='Currying(柯里化)'/>
         <page name='Sequence(相关知识)'/>
         <page name='Tuple(元组)'/>
+        <page name='@autoclosure&amp;&amp;??'/>
     </pages>
 </playground>
