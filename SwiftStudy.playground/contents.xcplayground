@@ -7,5 +7,6 @@
         <page name='@autoclosure&amp;&amp;??'/>
         <page name='@escaping'/>
         <page name='Optional Chaining(可选链)'/>
+        <page name='重载操作符'/>
     </pages>
 </playground>
