@@ -9,5 +9,6 @@
         <page name='Optional Chaining(可选链)'/>
         <page name='重载操作符'/>
         <page name='自定义下标'/>
+        <page name='associatedtype'/>
     </pages>
 </playground>
