@@ -10,5 +10,6 @@
         <page name='重载操作符'/>
         <page name='自定义下标'/>
         <page name='associatedtype'/>
+        <page name='可变参数列表'/>
     </pages>
 </playground>
