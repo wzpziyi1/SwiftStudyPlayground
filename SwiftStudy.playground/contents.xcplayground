@@ -13,5 +13,6 @@
         <page name='可变参数列表'/>
         <page name='正则表达式匹配'/>
         <page name='模式匹配'/>
+        <page name='是...和..&lt;'/>
     </pages>
 </playground>
