@@ -16,5 +16,6 @@
         <page name='是...和..&lt;'/>
         <page name='AnyClass、元类型、.Type、.self'/>
         <page name='Protocol&amp;&amp;Self'/>
+        <page name='Property Observers（属性观察）'/>
     </pages>
 </playground>
