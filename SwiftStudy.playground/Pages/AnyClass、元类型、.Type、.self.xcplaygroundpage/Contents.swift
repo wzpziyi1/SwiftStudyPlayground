@@ -27,4 +27,28 @@ let typeA_any: AnyClass = A.self
 (typeA_any as! A.Type).method()
 
 
+//使用元类型解决某些问题，使得代码更加灵活多变
+import UIKit
+class MusicViewController: UIViewController {
+    
+}
+
+class AlbumViewController: UIViewController {
+    
+}
+
+let usingVCTypes: [AnyClass] = [MusicViewController.self,
+                                AlbumViewController.self]
+
+func setupViewControllers(_ vcTypes: [AnyClass]) {
+    for vcType in vcTypes {
+        if vcType is UIViewController.Type {
+            let vc = (vcType as! UIViewController.Type).init()
+            print(vc)
+        }
+        
+    }
+}
+
+setupViewControllers(usingVCTypes)
 
