@@ -11,5 +11,6 @@
         <page name='自定义下标'/>
         <page name='associatedtype'/>
         <page name='可变参数列表'/>
+        <page name='正则表达式'/>
     </pages>
 </playground>
