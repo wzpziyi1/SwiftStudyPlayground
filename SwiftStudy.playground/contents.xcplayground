@@ -14,5 +14,6 @@
         <page name='正则表达式匹配'/>
         <page name='模式匹配'/>
         <page name='是...和..&lt;'/>
+        <page name='AnyClass、元类型、.Type、.self'/>
     </pages>
 </playground>
