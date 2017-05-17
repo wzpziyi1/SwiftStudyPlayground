@@ -18,5 +18,6 @@
         <page name='Protocol&amp;&amp;Self'/>
         <page name='Property Observers（属性观察）'/>
         <page name='lazy方法'/>
+        <page name='where'/>
     </pages>
 </playground>
