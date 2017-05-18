@@ -19,5 +19,9 @@
         <page name='Property Observers（属性观察）'/>
         <page name='lazy方法'/>
         <page name='where'/>
+        <page name='Selector'/>
+        <page name='动态调用实例方法'/>
+        <page name='Signal（单例）'/>
+        <page name='@UIApplicationMain'/>
     </pages>
 </playground>
