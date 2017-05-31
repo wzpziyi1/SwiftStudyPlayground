@@ -23,5 +23,7 @@
         <page name='动态调用实例方法'/>
         <page name='Signal（单例）'/>
         <page name='@UIApplicationMain'/>
+        <page name='autoReleasePool'/>
+        <page name='GCD延迟'/>
     </pages>
 </playground>
