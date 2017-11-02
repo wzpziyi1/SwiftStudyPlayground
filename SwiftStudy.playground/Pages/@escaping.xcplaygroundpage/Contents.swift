@@ -48,7 +48,7 @@ class Test {
     
     func method3() {  //会输出为nil，是因为对象已经被释放了，self已经被置nil
         doWorkAsync {
-            [weak self] _ in
+            [weak self] in
             print(self?.foo)
         }
         foo = "bar"

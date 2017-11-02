@@ -9,15 +9,15 @@ import Foundation
 
 
 class MyObject: NSObject {
-    func callMe() {
+    @objc func callMe() {
         //...
     }
     
-    func callMeWithParam(obj: AnyObject!) {
+    @objc func callMeWithParam(obj: AnyObject!) {
         //...
     }
     
-    func turn(by angle: Int, speed: Float) {
+    @objc func turn(by angle: Int, speed: Float) {
         //...
     }
     
@@ -38,11 +38,11 @@ class MyObject: NSObject {
     }
     
     
-    func commonFunc() {
+    @objc func commonFunc() {
         
     }
     
-    func commonFunc(input: Int) -> Int {
+    @objc func commonFunc(input: Int) -> Int {
         return input
     }
     

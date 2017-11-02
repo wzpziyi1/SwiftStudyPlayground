@@ -40,7 +40,7 @@ extension IteratorProtocol where Self: Sequence {
 }
 
 //用在函数中
-func !=<T: RawRepresentable where T.RawValue: Equatable>(a: T, b: T) -> Bool {
+func !=<T: RawRepresentable>(a: T, b: T) -> Bool where T.RawValue: Equatable {
     return a.rawValue != b.rawValue
 }
 
